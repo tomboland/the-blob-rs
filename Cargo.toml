@@ -1,0 +1,13 @@
+[package]
+name = "the_blob"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[dependencies]
+amethyst = "0.15.0"
+
+[features]
+default = ["vulkan"]
+empty = ["amethyst/empty"]
+vulkan = ["amethyst/vulkan"]

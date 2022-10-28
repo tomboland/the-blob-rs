@@ -1,0 +1,7 @@
+(
+  axes: {
+    "updown": Emulated(pos: Key(F), neg: Key(S)),
+    "leftright": Emulated(pos: Key(T), neg: Key(R)),
+  },
+  actions: {},
+)
